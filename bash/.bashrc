@@ -1,3 +1,6 @@
+# omarchyデフォルト.bashrc
+# source ~/.local/share/omarchy/default/bash/rc
+
 #export PS1='\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 export PS1='\[\e[33m\]\u@\h:\[\e[32m\]\w\[\e[0m\]\$ '
