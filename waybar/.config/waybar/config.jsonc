@@ -122,6 +122,7 @@
   },
   "group/tray-expander": {
     "orientation": "inherit",
+// drawerにしまうほどの量がないことと、mozcが隠れてしまう問題があるので削除してしまおう
 //    "drawer": {
 //      "transition-duration": 600,
 //      "children-class": "tray-group-item"
