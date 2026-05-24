@@ -27,3 +27,6 @@ $ stow waybar
 $ stow --simulate */ #dry_run
 $ stow */
 ~~~
+# 注意
+- systemdはenableせよ。user側で動かすように
+- 初回では既存ファイルが被りwarningが出るので事前にバックアップを取得する形で対応せよ
