@@ -1,5 +1,6 @@
 # omarchy-dot
 omarchyのためのdotfiles管理プロジェクト
+極力いじらず退屈なテーマに収束させていくのが目標
 ## ツール
 - stow
 ## 対象

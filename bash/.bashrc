@@ -1,7 +1,16 @@
-# omarchyデフォルト.bashrc
+# If not running interactively, don't do anything (leave this at the top of this file)
+[[ $- != *i* ]] && return
+
+# All the default Omarchy aliases and functions
+# (don't mess with these directly, just overwrite them here!)
 # source ~/.local/share/omarchy/default/bash/rc
 
-#export PS1='\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+# Add your own exports, aliases, and functions here.
+#
+# Make an alias for invoking commands you use constantly
+# alias p='python'
+#unalias -a
+# unset PROMPT_COMMAND
 
 export PS1='\[\e[33m\]\u@\h:\[\e[32m\]\w\[\e[0m\]\$ '
 
@@ -12,9 +21,7 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad
 alias ls='ls --color'
 alias ll='ls -alF'
 alias la='ls -A'
-alias grep='grep --color=auto'     
-alias vf='vim $(fzf)'
-alias t='todo.sh'
+alias grep='grep --color=auto'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
